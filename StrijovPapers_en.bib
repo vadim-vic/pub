@@ -4480,4 +4480,72 @@ of resultant models.},
   publisher = {arXiv},
 }
 
+@Misc{Neychev2024,
+  author    = {Neychev, Radoslav G. and Shibaev, Innokentiy A. and Strijov, Vadim V.},
+  title     = {Optimal spanning tree reconstruction in symbolic regression},
+  year      = {2024},
+  copyright = {Creative Commons Attribution 4.0 International},
+  doi       = {10.48550/ARXIV.2406.18612},
+  keywords  = {Machine Learning (stat.ML), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  publisher = {arXiv},
+}
+
+@Misc{Kuzmin2024,
+  author    = {Kuzmin, Arsentii and Aduenko, Alexander and Strijov, Vadim},
+  title     = {Hierarchical thematic classification of major conference proceedings},
+  year      = {2024},
+  copyright = {Creative Commons Attribution 4.0 International},
+  doi       = {10.48550/ARXIV.2406.14983},
+  keywords  = {Machine Learning (cs.LG), Information Retrieval (cs.IR), Machine Learning (stat.ML), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  publisher = {arXiv},
+}
+
+@Article{Dorin2024fMRI,
+  author   = {Daniil Dorin and Nikita Kiselev and Andrey Grabovoy and Vadim Strijov},
+  journal  = {Health Information Science and Systems},
+  title    = {Forecasting fMRI images from video sequences: linear model analysis},
+  year     = {2024},
+  abstract = {Over the past few decades, a variety of significant scientific breakthroughs have been achieved in the fields of brain encoding and decoding using the functional magnetic resonance imaging (fMRI). Many studies have been conducted on the topic of human brain reaction to visual stimuli. However, the relationship between fMRI images and video sequences viewed by humans remains complex and is often studied using large transformer models. In this paper, we investigate the correlation between videos presented to participants during an experiment and the resulting fMRI images. To achieve this, we propose a method for creating a linear model that predicts changes in fMRI signals based on video sequence images. A linear model is constructed for each individual voxel in the fMRI image, assuming that the image sequence follows a Markov property. Through the comprehensive qualitative experiments, we demonstrate the relationship between the two time series. We hope that our findings contribute to a deeper understanding of the human brain’s reaction to external stimuli and provide a basis for future research in this area.},
+  doi      = {10.1007/s13755-024-00315-5},
+  keywords = {Neuroimaging, fMRI, Video sequences, Correlation analysis, Hypothesis testing, Linear model, Forecasting,},
+  url      = {https://github.com/DorinDaniil/Forecasting-fMRI-Images.},
+}
+
+@Article{Dorin2025fMRIDecoding,
+  author   = {Daniil Dorin and Andrey Grabovoy and Vadim Strijov},
+  journal  = {To be discussed},
+  title    = {Spatial time domain of fMRI decoding models},
+  year     = {2025},
+  abstract = {The paper studies spatiotemporal characteristics in the problem of decoding functional magnetic resonance imaging or fMRI data with discrete time representation. Neural network architectures are not always suitable for working with fMRI data due to the limited amount of data, high individual variability, and the need for significant computing resources. Therefore, an approach that takes into account the structural features of the brain of each studied object is considered. A method for reducing the spatial dimensionality of fMRI time series is proposed, based on weighting the stimulated brain areas using a cross-correlation function. Based on this method, a classification model for fMRI time series segments is proposed, using an encoder with Riemannian geometry to extract spatiotemporal characteristics. In a computational experiment, the proposed methods are analyzed on a sample obtained during tomographic examination of six subjects. The influence of individual components of the method on the quality of classification is analyzed.},
+  keywords = {spatiotemporal characteristics, neuroimaging, fMRI, Riemannian geometry, classification},
+}
+
+@Article{Tikhonov2025Phase,
+  author   = {Denis Tikhonov and Antonina Kurdyukova and Georgii Kormakov and Vadim Strijov},
+  journal  = {Multimedia Tools and Applications},
+  title    = {Phase extraction of quasiperiodic signal using time-delay embedding},
+  year     = {2025},
+  abstract = {The paper investigates a phase extraction problem of a quasiperiodic signal.These are repetitive signals with changes in period and frequency.We propose an algorithm for expected phase extraction.The original time series is presented in the phase space with time delay embedding.This embedded time series forms the phase trajectory of the initial system.The signal's phase is reconstructed using the approximation model of an expected phase trajectory. Also, the paper proposes the criterion for choosing the optimal dimension of the trajectory subspace. The results are shown on signals that were collected from the three-axis accelerometer. Five classes of human motion are used.For quality analysis, the algorithm is compared with the method that uses autocorrelation peaks, Hilbert transform, and autoencoder.},
+  keywords = {behavior analysis, phase extraction, time series, phase trajectory, trajectory space},
+}
+
+@Article{Terentyev2025PINN,
+  author   = {Alexander Terentyev and Vadim Strijov},
+  journal  = {SN Computer Science},
+  title    = {Classification of trajectories of dynamic systems using physically-informed neural networks},
+  year     = {2025},
+  abstract = {The paper proposes a method for multivariate time series classification using information about their physical nature. The paper proposes a classification model for multidimensional trajectories of physical systems. In comparison to models that use assumptions about statistical properties of trajectories only, but do not use  prior information, the presented model includes information about the physical nature of the system. It makes the classification stable to random non-physical changes in trajectories. To account for these changes we train the model on augmented samples. We propose to classify not the trajectories themselves, but the dynamical systems given by the Lagrangians corresponding to these trajectories. The Lagrangian is reconstructed using physics-informed Lagrangian neural networks. We introduce a norm in the space of Lagrangians and use it in metric classification.},
+  keywords = {physical system; Lagrangian; Lagrangian neural network; compactness hypothesis},
+}
+
+@InProceedings{denis2024dynamic,
+  author    = {Tikhonov Denis},
+  booktitle = {International Conference on Computational Optimization},
+  title     = {Dynamic system reconstruction from multivariate time series via multilinear map and time delay emmbedding},
+  year      = {2024},
+  abstract  = {This paper examines the properties of dynamic system reconstruction using time delay embedding and multilinear (tensor) algebra. The tensor dynamical system model for time series prevents the loss of higher-order information. The key idea is to use the tensor as a multilinear map from set phase spaces to one subspace. Due to the simplicity of the linear approach and linear dependencies between components, the results show that the method in several cases allows for a better reconstruction of the original attractor from an incomplete set of variables. A computational experiment was carried out on Lorenz attractor and measurements of the accelerometer of a mobile device with three classes of human movements.},
+  keywords  = {dimensionality reduction, dynamical system, multilinear algebra},
+  url       = {https://openreview.net/pdf?id=xYkLT5f6O0},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
