@@ -4501,14 +4501,23 @@ of resultant models.},
 }
 
 @Article{Dorin2024fMRI,
-  author   = {Daniil Dorin and Nikita Kiselev and Andrey Grabovoy and Vadim Strijov},
-  journal  = {Health Information Science and Systems},
-  title    = {Forecasting fMRI images from video sequences: linear model analysis},
-  year     = {2024},
-  abstract = {Over the past few decades, a variety of significant scientific breakthroughs have been achieved in the fields of brain encoding and decoding using the functional magnetic resonance imaging (fMRI). Many studies have been conducted on the topic of human brain reaction to visual stimuli. However, the relationship between fMRI images and video sequences viewed by humans remains complex and is often studied using large transformer models. In this paper, we investigate the correlation between videos presented to participants during an experiment and the resulting fMRI images. To achieve this, we propose a method for creating a linear model that predicts changes in fMRI signals based on video sequence images. A linear model is constructed for each individual voxel in the fMRI image, assuming that the image sequence follows a Markov property. Through the comprehensive qualitative experiments, we demonstrate the relationship between the two time series. We hope that our findings contribute to a deeper understanding of the human brain’s reaction to external stimuli and provide a basis for future research in this area.},
-  doi      = {10.1007/s13755-024-00315-5},
-  keywords = {Neuroimaging, fMRI, Video sequences, Correlation analysis, Hypothesis testing, Linear model, Forecasting,},
-  url      = {https://github.com/DorinDaniil/Forecasting-fMRI-Images.},
+  author        = {Dorin, Daniil and Kiselev, Nikita and Grabovoy, Andrey and Strijov, Vadim},
+  journal       = {Health Information Science and Systems},
+  title         = {Forecasting fMRI images from video sequences: linear model analysis},
+  year          = {2024},
+  number        = {1},
+  pages         = {55},
+  volume        = {12},
+  abstract      = {Over the past few decades, a variety of significant scientific breakthroughs have been achieved in the fields of brain encoding and decoding using the functional magnetic resonance imaging (fMRI). Many studies have been conducted on the topic of human brain reaction to visual stimuli. However, the relationship between fMRI images and video sequences viewed by humans remains complex and is often studied using large transformer models. In this paper, we investigate the correlation between videos presented to participants during an experiment and the resulting fMRI images. To achieve this, we propose a method for creating a linear model that predicts changes in fMRI signals based on video sequence images. A linear model is constructed for each individual voxel in the fMRI image, assuming that the image sequence follows a Markov property. Through the comprehensive qualitative experiments, we demonstrate the relationship between the two time series. We hope that our findings contribute to a deeper understanding of the human brain's reaction to external stimuli and provide a basis for future research in this area.},
+  bdsk-url-1    = {https://doi.org/10.1007/s13755-024-00315-5},
+  date          = {2024/11/15},
+  date-added    = {2024-11-17 19:40:54 +0100},
+  date-modified = {2024-11-17 19:40:54 +0100},
+  doi           = {10.1007/s13755-024-00315-5},
+  id            = {Dorin2024},
+  isbn          = {2047-2501},
+  keywords      = {Neuroimaging, fMRI, Video sequences, Correlation analysis, Hypothesis testing, Linear model, Forecasting,},
+  url           = {https://github.com/DorinDaniil/Forecasting-fMRI-Images},
 }
 
 @Article{Dorin2025fMRIDecoding,
@@ -4555,6 +4564,35 @@ of resultant models.},
   year     = {2025},
   abstract = {Processing of multidimensional time series is associated with an additional task of determining dependencies between signals. Its inclusion in models boosts the quality of forecasts. On the other hand, taking this dependency into account makes models more complex and less interpretable. The paper proposes a non-parametric method based on tensor data representation and Singular Spectrum Analysis (SSA). It derives a time series decomposition technique and an explicit forecast model. Finally, it applies an elaborated theory to electricity consumption and inertial measurement unit datasets. It compares the obtained quality of forecast with mSSA, VAR, and RNN models.},
   keywords = {time series, decomposition, forecasting, singular spectrum analysis, tensorrank decomposition},
+}
+
+@Article{Divilkovskiy2025Correlation,
+  author   = {Maxim Divilkovskiy and Konstantin Yakovlev and Vadim Strijov},
+  journal  = {Applied Intelligence},
+  title    = {Correlation-based algorithm for multivariate time series prediction},
+  year     = {2025},
+  abstract = {The paper investigates a time series prediction problem. It constructs a pointwise prediction model for a set of time series. These time series have high variance and high covariance. Paper introduces space of pairwise distances between time series and analyzes its properties. In this space, the pairwise distance matrix is predicted in its dynamics. The time series values at the next time moment are reconstructed with this matrix. The authors propose several methods for the pointwise prediction of time series using the space of the pairwise distance matrices. We prove the existence of multiple time series values satisfying the same pairwise distance matrix. The paper presents two Algorithms based on the use of matrices constructed over different time intervals using pairwise correlation. We derive an explicit form of the reconstructed values in terms of the pairwise correlation matrix. Also, we evaluate the quality of the reconstruction when noise is added to the pairwise distance matrices. The novelty of the method is that the prediction is not done in the original space but in the space of pairwise distances.},
+  keywords = {Metric Non-Convex Optimization, Time Series Forecasting, Singular Value Decomposition, Pearson Correlation Coefficient},
+  url      = {https://github.com/intsystems/2024-Project-152a},
+}
+
+@Article{Vladimirov2025Video,
+  author   = {Eduard Vladimirov and Roman Isachenko and Vadim Strijov},
+  journal  = {Multimedia Tools and Applications},
+  title    = {Reconstruction of acceleration hand trajectory with video},
+  year     = {2025},
+  abstract = {This paper investigates the problem of forecasting a time series with a complex structure. The complex structure means the presence of non-linear dependencies and a varying period. We have to find causal relationships between time series forecasts. In order to do this, we reduce the dimension of trajectory spaces. The paper introduces a new way for the consistent dimensional reduction of time series. The proposed method combines the partial least squares method and convergent cross mapping method. To demonstrate the results of the work we tackle the problem of hand trajectory reconstruction with video.},
+  keywords = {Pose estimation, Time series, Phase trajectory, Trajectory subspace, Convergent cross mapping, Partial least squares},
+}
+
+@Book{Golyandina2001,
+  author    = {Golyandina, Nina and Nekrutkin, Vladimir and Zhigljavsky, Anatoly A},
+  publisher = {Chapman and Hall/CRC},
+  title     = {Analysis of Time Series Structure},
+  year      = {2001},
+  isbn      = {9780367801687},
+  month     = jan,
+  doi       = {10.1201/9780367801687},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
